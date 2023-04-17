@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'kdam thmor Pro', sans-serif; 
+   
+}
+
+body{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./imagemdefundo1.jpg');
+    background-size: cover;
+}
+
+selection {
+    position: relative;
+    top:-300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: #4d0505;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: white;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 15px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    font-size:  15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    
+}
+
+form textarea:focus{
+    border-radius: 15px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: white;
+    color: rgb(23, 5, 5);
+    border-radius: 15px;
+}
+
+header button {
+    position: relative;
+    top: -600px;
+    left: -290px;
+    padding: 10px 30px;
+    background: #4d0505;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+    border-color: white;
+}
+
+header button:hover {
+    background: white;
+    transition: 1s;
+    border-color: black
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    color: white;
+    font-size: 20px;
+    
+}
+
+li:hover {
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: -700px;
+    left: 570px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 90px;
+  
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+
+    }
+}
